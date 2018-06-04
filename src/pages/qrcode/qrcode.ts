@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ToastController } from 'ionic-angular';
 import { BarcodeScanner, BarcodeScannerOptions, BarcodeScanResult } from '@ionic-native/barcode-scanner';
-
+import {InAppBrowser, InAppBrowserOptions } from '@ionic-native/in-app-browser';
 
 @Component({
   selector: 'page-qrcode',
@@ -9,7 +9,12 @@ import { BarcodeScanner, BarcodeScannerOptions, BarcodeScanResult } from '@ionic
 })
 export class QrcodePage {
 result: BarcodeScanResult;
-  constructor(public navCtrl: NavController, public navParams: NavParams, private bcs: BarcodeScanner,private toastCtrl: ToastController) {
+  constructor(public navCtrl: NavController, 
+    public navParams: NavParams,
+     private bcs: BarcodeScanner,
+     private toastCtrl: ToastController, 
+     private iap:InAppBrowser,
+     ) {
   }
   
   ionViewWillEnter(){    
@@ -23,7 +28,11 @@ result: BarcodeScanResult;
     this.bcs.scan (options)
       .then (res=>{
         this.result = res;
+        this.iap.create ( 'http://apache.org','_target', 'location=yes');
+
       })
+    
+
       .catch(err =>{
         this.toastCtrl.create({
           message:err.message

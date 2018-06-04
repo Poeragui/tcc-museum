@@ -1,144 +1,150 @@
 [
   {
-    "id": 0,
+    "id": 1,
     "name": "Jean-Pierre ALVAREZ",
     "fav": false,
-    
     "code": 9213750369,
-    "img": "assets/imgs/photos/9213750369.jpg"
-  },
-  {
-    "id": 1,
-    "name": "Poeragui ARAI",
-    "fav": false,
-    "code": 6510403686,
-    "img": "assets/imgs/photos/6510403686.jpg"
+    "img": "assets/oeuvres/JP.jpg"
   },
   {
     "id": 2,
-    "name": "Jérôme CHANSIN",
+    "name": "Poeragui ARAI",
     "fav": false,
-    "code": 7216899933,
-    "img": "assets/imgs/photos/7216899933.jpg"
+    "code": 6510403686,
+    "img": "assets/oeuvres/poeragui.jpg"
   },
   {
     "id": 3,
-    "name": "Jonas CHEUNG-SEN",
+    "name": "Jérôme CHANSIN",
     "fav": false,
-    "code": 1629568455,
-    "img": "assets/imgs/photos/1629568455.jpg"
+    "code": 7216899933,
+    "img": "assets/oeuvres/Jerome.jpg"
   },
   {
     "id": 4,
-    "name": "Heimana CUNY",
+    "name": "Jonas CHEUNG-SEN",
     "fav": false,
-    "code": 9266553664,
-    "img": "assets/imgs/photos/9266553664.jpg"
+    "code": 1629568455,
+    "img": "assets/oeuvres/Jonas.jpg"
   },
   {
     "id": 5,
-    "name": "Nicolas EBB",
+    "name": "Heimana CUNY",
     "fav": false,
-    "code": 1168085824,
-    "img": "assets/imgs/photos/1168085824.jpg"
+    "code": 9266553664,
+    "img": "assets/oeuvres/Mana.jpg"
   },
   {
     "id": 6,
-    "name": "Alexandre LEHARTEL",
+    "name": "Nicolas EBB",
     "fav": false,
-    "code": 2791010818,
-    "img": "assets/imgs/photos/2791010818.jpg"
+    "code": 1168085824,
+    "img": "assets/oeuvres/Nicolas.jpg"
   },
   {
     "id": 7,
-    "name": "Tetuaoro LENOIR",
+    "name": "Alexandre LEHARTEL",
     "fav": false,
-    "code": 4173047359,
-    "img": "assets/imgs/photos/4173047359.jpg"
+    "code": 2791010818,
+    "img": "assets/oeuvres/Alexandre.jpg"
   },
   {
     "id": 8,
-    "name": "Joane LY",
+    "name": "Tetuaoro LENOIR",
     "fav": false,
-    "code": 6872232276,
-    "img": "assets/imgs/photos/6872232276.jpg"
+    "code": 4173047359,
+    "img": "assets/oeuvres/Tetuaoro.jpg"
   },
   {
     "id": 9,
-    "name": "Vaitiare MONACO",
+    "name": "Joane LY",
     "fav": false,
-    "code": 4653519064,
-    "img": "assets/imgs/photos/4653519064.jpg"
+    "code": 6872232276,
+    "img": "assets/oeuvres/Joane.jpg"
   },
   {
     "id": 10,
-    "name": "Ariipaea PAEAHI",
+    "name": "Vaitiare MONACO",
     "fav": false,
-    "code": 3658034121,
-    "img": "assets/imgs/photos/3658034121.jpg"
+    "code": 4653519064,
+    "img": "assets/oeuvres/Vaitiare.jpg"
   },
   {
     "id": 11,
-    "name": "Aito PAMBRUN",
+    "name": "Ariipaea PAEAHI",
     "fav": false,
-    "code": 5175547403,
-    "img": "assets/imgs/photos/5175547403.jpg"
+    "code": 3658034121,
+    "img": "assets/oeuvres/Ariipaia.jpg"
   },
   {
     "id": 12,
-    "name": "Hi'omai PAMBRUN",
+    "name": "Aito PAMBRUN",
     "fav": false,
-    "code": 9520532017,
-    "img": "assets/imgs/photos/9520532017.jpg"
+    "code": 5175547403,
+    "img": "assets/oeuvres/Aito.jpg"
   },
   {
     "id": 13,
-    "name": "Rahiti PEREZ",
+    "name": "Hi'omai PAMBRUN",
     "fav": false,
-    "code": 1228597258,
-    "img": "assets/imgs/photos/1228597258.jpg"
+    "code": 9520532017,
+    "img": "assets/oeuvres/Hiomai.jpg"
   },
   {
     "id": 14,
-    "name": "Matihanu PERRY",
+    "name": "Rahiti PEREZ",
     "fav": false,
-    "code": 5480211371,
-    "img": "assets/imgs/photos/5480211371.jpg"
+    "code": 1228597258,
+    "img": "assets/oeuvres/Rahiti.jpg"
   },
   {
     "id": 15,
-    "name": "Christian ROUSSEL",
+    "name": "Milton PERRY",
     "fav": false,
-    "code": 2462643924,
-    "img": "assets/imgs/photos/2462643924.jpg"
+    "code": 5480211371,
+    "img": "assets/oeuvres/Milton.jpg"
   },
   {
     "id": 16,
-    "name": "Tinirau TEHUPE",
+    "name": "Christian ROUSSEL",
     "fav": false,
-    "code": 5055364030,
-    "img": "assets/imgs/photos/5055364030.jpg"
+    "code": 2462643924,
+    "img": "assets/oeuvres/Christian.jpg"
   },
   {
     "id": 17,
-    "name": "Tinirau TEMATAHOTOA",
+    "name": "Tinirau TEHUPE",
     "fav": false,
-    "code": 6232447902,
-    "img": "assets/imgs/photos/6232447902.jpg"
+    "code": 5055364030,
+    "img": "assets/oeuvres/Tinirau.jpg"
   },
   {
     "id": 18,
+    "name": "Tinirau TEMATAHOTOA",
+    "fav": false,
+    "code": 6232447902,
+    "img": "assets/oeuvres/TinirauT.jpg"
+  },
+  {
+    "id": 19,
     "name": "Teparii TOOFA",
     "fav": false,
     "code": 4235066246,
-    "img": "assets/imgs/photos/4235066246.jpg"
+    "img": "assets/oeuvres/Teparii.jpg"
   },
   {
     "id": 20,
-    "name": "Terremu MARO",
+    "name": "Teremu MARO",
     "fav": false,
     "code": 1234567890,
-    "img": "assets/imgs/photos/1234567890.jpg"
+    "img": "assets/oeuvres/Teremu.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Manaarii LONGINE",
+    "fav": false,
+    "code": 9782420312,
+    "img": "assets/oeuvres/Manarii.jpg"
   }
   
 ]

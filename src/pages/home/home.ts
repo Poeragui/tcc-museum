@@ -1,30 +1,34 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import * as data from '../../oeuvres.json' ;
+import { GetDataProvider } from "../../providers/get-data/get-data";
+import { BDDObject } from "../../assets/data/typings";
+import { Component } from "@angular/core";
+import { NavController, NavParams } from "ionic-angular";
 
-
-const lists = (<any>data).first_name;
-const last = (<any>data).last_name;
-const code = (<any>data).code_oeuvre;
-
-console.log(lists);
-console.log(last);
-console.log(code);
+import { TabsPage } from "../tabs/tabs";
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-  lists = (<any>data).first_name;
-  first_name: string;
-  last = (<any>data).last_name;
-  last_name: string;
-  code = (<any>data).code_oeuvre;
-  code_oeuvre: string;
- 
-  constructor(public navCtrl: NavController,) {
-  
+  oeuvres= new Array<BDDObject>();
+  codes;
+
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+    private getdataprovider: GetDataProvider
+  ) {
+    this.codes = this.navParams.get('idal2');
+    console.log(this.codes);
   }
+
+  ionViewDidLoad() {
+    this.getdataprovider.getDATA().subscribe(data => {
+      this.oeuvres = data;
+    });
+  }
+
+  
+
 
 }

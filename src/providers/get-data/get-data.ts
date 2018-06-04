@@ -6,7 +6,7 @@ import { BDDObject } from "../../assets/data/typings";
 
 @Injectable()
 export class GetDataProvider {
-  private baseUrl: string = "../../assets/data/data_bdd.json";
+  private baseUrl: string = "../../assets/data/oeuvres.json";
 
   data: BDDObject[];
 
@@ -14,9 +14,9 @@ export class GetDataProvider {
     private readonly http: HttpClient,
     private readonly platform: Platform
   ) {
-    console.log("Hello DATA_BDD Provider");
+    console.log("Hello oeuvres Provider");
     if (this.platform.is("cordova") && this.platform.is("android")) {
-      this.baseUrl = "/assets/data/data_bdd.json";
+      this.baseUrl = "/assets/data/oeuvres.json";
     }
   }
 
