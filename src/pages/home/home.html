@@ -8,14 +8,14 @@
 
   <ion-content>
     <ion-list> 
-          <ion-item *ngFor="let list of oeuvres" (click)="showProfile(list.code)">
+          <ion-item *ngFor="let list of oeuvres" >
             <ion-avatar>
               <img [src]="list.img" >
             </ion-avatar>
-                  {{list.name}}
-           
-            
+                  {{list.name}}         
+                  <ion-icon name="checkbox" item-end></ion-icon>   
           </ion-item>
+         
         </ion-list>
   
   </ion-content>

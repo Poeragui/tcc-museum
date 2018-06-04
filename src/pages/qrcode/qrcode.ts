@@ -28,7 +28,7 @@ result: BarcodeScanResult;
     this.bcs.scan (options)
       .then (res=>{
         this.result = res;
-        this.iap.create ( 'http://apache.org','_target', 'location=yes');
+        this.iap.create ( 'https://www.google.com','_self', 'location=yes');
 
       })
     
